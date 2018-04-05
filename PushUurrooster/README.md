@@ -1,5 +1,5 @@
-UURROOSTER UCLL PUSH NOTIFICATIONS#
-###################################
+# UURROOSTER UCLL PUSH NOTIFICATIONS
+
 
 Dit python script download elke keer X aantal minuten voor je les kan hebben je lesrooster.
 Dan kijkt hij of je les hebt binnen die X aantal minuten.
