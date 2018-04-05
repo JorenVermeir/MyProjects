@@ -1,5 +1,5 @@
-# Spring web application in Intellij#
-###################################
+# Spring web application in Intellij
+
 
 Spring web application made in Intellij.
 This project has 3 entities.
