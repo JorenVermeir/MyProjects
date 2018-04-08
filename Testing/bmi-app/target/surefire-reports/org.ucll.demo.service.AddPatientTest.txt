@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: org.ucll.demo.service.AddPatientTest
+-------------------------------------------------------------------------------
+Tests run: 131, Failures: 0, Errors: 10, Skipped: 81, Time elapsed: 0.459 sec <<< FAILURE! - in org.ucll.demo.service.AddPatientTest
+Given a patient with the social security number "93051822361", gender "ale" and birthdate "1993-05-18"(| "ale" |)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.ALE
+
+| "ale" |  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.ALE
+
+Given a patient with the social security number "93051822361", gender "emale" and birthdate "1993-05-18"(| "emale" |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.EMALE
+
+| "emale" |  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.EMALE
+
+Given a patient with the social security number "93051822361", gender "apache helicopter" and birthdate "1993-05-18"(| "apache helicopter" |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.APACHE HELICOPTER
+
+| "apache helicopter" |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.APACHE HELICOPTER
+
+Given a patient with the social security number "93051822361", gender "maleatermeloen" and birthdate "1993-05-18"(| "maleatermeloen" |)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.MALEATERMELOEN
+
+| "maleatermeloen" |  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant org.ucll.demo.domain.Gender.MALEATERMELOEN
+
+And on "0000-00-00" the patient had a length of 160 cm and a weight of 65000 gr(| "0000-00-00" |)  Time elapsed: 0 sec  <<< ERROR!
+cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: 
+Couldn't convert "0000-00-00" to an instance of: [class java.util.Date]
+---- Debugging information ----
+-------------------------------
+
+| "0000-00-00" |  Time elapsed: 0.001 sec  <<< ERROR!
+cucumber.deps.com.thoughtworks.xstream.converters.ConversionException: 
+Couldn't convert "0000-00-00" to an instance of: [class java.util.Date]
+---- Debugging information ----
+-------------------------------
+

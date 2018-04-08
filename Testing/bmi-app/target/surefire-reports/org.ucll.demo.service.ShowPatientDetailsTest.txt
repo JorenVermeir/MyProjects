@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.ucll.demo.service.ShowPatientDetailsTest
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 0.08 sec - in org.ucll.demo.service.ShowPatientDetailsTest
