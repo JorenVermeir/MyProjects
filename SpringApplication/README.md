@@ -17,3 +17,7 @@ Used Technologies:
 	-Bean validation
 	-REST
 	-Relations and JPA/Spring
+This is the link for the deployed website. It is running on a linux VM on a Payara server. The Derby database is integraten in payara.
+http://193.191.177.8:10248/Streepjes/index.htm
+
+Somethimes the Derby database crashes. This is because the VM doesn't have enough memory.
