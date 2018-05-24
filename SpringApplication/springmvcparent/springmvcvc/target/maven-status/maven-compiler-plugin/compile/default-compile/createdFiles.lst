@@ -1,0 +1,8 @@
+config\DispatcherServletConfig.class
+config\WebSecurityConfig.class
+config\WebInitializer.class
+controller\PersonOverviewController.class
+config\ApplicationConfig.class
+config\SecurityWebApplicationInitializer.class
+controller\PersonRestController.class
+controller\StreepjeController.class
